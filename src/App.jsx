@@ -5,7 +5,6 @@ import AppLayout from "./components/AppLayout.jsx";
 
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
-import ForgotPassword from "./pages/ForgotPassword.jsx";
 import Home from "./pages/Home.jsx";
 const Explore = lazy(() => import("./pages/Explore.jsx"));
 const Notifications = lazy(() => import("./pages/Notifications.jsx"));
@@ -26,7 +25,6 @@ export default function App() {
     <Routes>
       <Route path="/login" element={<Login />} />
       <Route path="/signup" element={<Signup />} />
-      <Route path="/forgot" element={<ForgotPassword />} />
 
       <Route
         path="/"
